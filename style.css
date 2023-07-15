@@ -1,0 +1,41 @@
+body
+{
+    background-color: #f2f2f2;
+}
+h1
+{
+    color: #333;
+    padding: 20px;
+}
+h2
+{
+    color: #007bff;
+}
+p
+{
+    color: #555;
+}
+a
+{
+    color: #007bff;
+}
+a:hover {
+    color: hotpink;
+}
+ul li
+{
+    margin-bottom:10px;
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 10px;
+    margin-left: 20px;
+  }
+  
